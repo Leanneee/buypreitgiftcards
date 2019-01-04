@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible"content="IE=edge" />
+    <meta name="viewport"content="width=device-width,intial-scale=1" />
+    <meta name="description"content="" />
+    <meta name="author"content="" />
+
+    <title>PREIT Gift Cards | Home</title>
+
+    <!-- get jQuery from the google apis-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+
+    <!-- CSS STYLE-->
+    <link rel="stylesheet" type="text/css" href="Content/Client/Hilton/css/sliderstyle.css" media="screen" />
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet"type="text/css" href="Content/Client/Hilton/css/slidersettings.css" media="screen" />
+
+    <!-- Theme CSS-->
+    <link href="Content/css/jcarousel.responsive.css" rel="stylesheet" />
+    <link href="Content/Client/Hilton/css/slidebars.min.css"rel="stylesheet" />
+
+    <!--Bootstrap Core CSS -->
+    <link href="Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/css/HeaderandFooter-v=10.css" rel="stylesheet" />
+    <link href="Content/css/jCarousel.css" rel="stylesheet" />
+    <link href="Content/css/HiltonCustom-v=10.css"rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="Content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!--<base href="/" />-->
+
+    <link href="Content/css/index-v=IfPiiybU7TmPrHNQbFCKjhi4kRvjbWIBTYr_Iyfo8JI1.html" rel="stylesheet"/>
+
+    <script src="bundles/modernizr-v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1.js"></script>
+
+</head>
+<body id="page-top"class="index" ng-app="mainApp" ng-cloak ng-controller="PageController">
+    <nav canvas id="mainNav" class="navbar navbar-custom">
+        <div class="NavWrapper">
+            <div class="row showwhenmobile">
+                <div class="col-xs-3" style="height:45px;padding:0px;">
+                    <ul class="js-open-demo-mobile-only" style="height:45px; margin-left:13px;padding:5px 5px 5px 12px; list-style:none;">
+                        <li class="fa fa-bars fa-4x OrangeHoverColor" style="font-size:35px;"></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 text-center" style="height:45px;padding:0px;padding-top:5px;">
+                    <a style="padding:0px 10px 0px 0px; overflow:visible;cursor:pointer;" ng-click="RedirectToRoute('/')">
+                        <img src="Content/img/all-mall-2695-top-logo.png" style="max-width:160px; width:100%;" alt="logo" />
+                    </a>
+                </div>
+                <div class="col-xs-3" style="height:45px;padding:0px;">
+                    <button style="float:right;margin-right:9px;"  class="mobilecartbutton OrangeHoverColor" ng-click="$scope.LoadCart = true;RedirectToRoute('/order/PlasticGiftCard?target=cart')">
+                        <i style="font-size:32px;" class="fa fa-shopping-cart fa-2x"></i>
+                        <span class="badge badge-warning" ForeColor="White" style="font-size: 10px; position:relative; top:-20px;">{{ Cart.Count }}</span>
+                    </button>
+                </div>
+            </div>            
+        </div>
+    </nav>
+
+    <div id="scrollbody" style="position: fixed;" canvas="container">
+        <div class="container">
+            <div class="row hidewhenmobile">
+                <div class="col-md-12">
+                    <ul class="HeaderMenu" style="float:left; overflow:visible;">
+                        <li style="border-right: none; margin-right:10px;">
+                            <a style="padding:15px 10px 0px 0px; height:65px; overflow:visible;cursor:pointer;pointer-events:auto;" ng-click="RedirectToRoute('/')">
+                                <img src="Content/img/all-mall-2695-top-logo.png" alt="logo" style="max-width:160px;cursor:pointer;pointer-events: none;" />
+                            </a>
+                        </li>
+                        <li style="border-right: none;">
+                        </li>
+                    </ul>
+                    <ul class="HeaderMenu HeaderMenu2">
+                        <li class="nonbuybutton grayRightBorder">
+                            <a href="https://www.amexgiftcard.com/Balance" target="_blank">CHECK BALANCE</a>
+                        </li>
+                        <li class="buybutton grayRightBorder">
+                            <a ng-click="RedirectToRoute('/order/PlasticGiftCard')">BUY CARDS</a>
+                        </li>
+                        <li class="nonbuybutton">
+                            <a style="height:51px;overflow:visible;" ng-click="$scope.LoadCart = true;RedirectToRoute('/Order/PlasticGiftCard?target=cart')" class="fa fa-shopping-cart fa-2x">
+                                <span class="badge badge-warning" ForeColor="White" style="font-size: 12px; position:relative; top:-17px; right: 7px;">{{ Cart.Count }}</span>
+                            </a>
+
+                        </li>
+                        <li class="nonbuybutton">
+                            <h2 ng-cloak style="float:right; font-size: 15px !important;" ng-show="UserInfo.UserName">Welcome: <span style="color:#000">{{UserInfo.UserName}}</span><a style="padding-left: 5px;font-size: 11px;" ng-click="logOut()">Log out</a></h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+<header class="headerImg"></header>
+
+<!--banner-->
+
+<!--banner-->
+
+<!--Portfolio Grid Section-->
+<section class="BodyCopy">
+    <div class="container">
+        <div class="row">
+            <img width="100%" alt="" src="Content/img/banner.jpg" />
+        </div>
+        <div class="row">
+            <div class="col-xs-12 BelowImagePadding">
+                <div class="row" style="margin-bottom:15px">
+                    <div class="col-xs-12">
+                        <h1 class="Cougar h15" style="font-weight:bold;">The Gift of Choice.</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>PREIT Malls Gift Cards can be used at any PREIT Mall as well as virtually everywhere American Express<sup>®</sup> Cards are accepted in the United States*.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:30px;">
+            <div class="col-xs-12">
+                <h2 class="Cougar" style="font-weight:bold;">What You Should Know</h2>
+            </div>
+            <div class="col-sm-offset-1 col-sm-10">
+                <ul class="bullets">
+                    <li>Funds do not expire.</li>
+                    <li>No inactivity fees or other post-purchase fees.</li>
+                    <li>Recipients may obtain a free replacement after a Card's "valid thru" date passes by calling Customer Service at 1-888-846-4308.</li>
+                    <li>Funds are replaceable if Card is lost or stolen.</li>
+                    <li>See PREIT Malls Cardholder Agreement for complete terms and conditions.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 BelowImagePadding">
+                <h5>*Terms and Conditions apply to Gift Cards. Some limitations apply. <a ng-click="OpenWindow('https://balance.amexgiftcard.com/cardholder-agreement ')">Click here</a> for complete terms and Cardholder Agreement. Card issued by American Express® Prepaid Card Management Corporation.</h5>
+            </div>
+        </div>
+        <div class="row" style="margin-top:30px;padding-top:10px">
+            <div class="col-sm-6 col-xs-10 col-sm-offset-3 col-xs-offset-1 text-center">
+                <a ng-click="RedirectToRoute('/order/PlasticGiftCard')" class="btn btn-primary" style="padding:10px 55px;">
+                    <h2 style="color:white;">ORDER NOW</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <footer style="margin-top:70px;">
+            <section id="portfolio" style="border-top: 1px solid #cccccc;">
+                <div class="container">
+                    <div class="row text-center margintop15">
+                        <img src="Content/img/All-Mall-2695-Bottom-logos-no-SUS.gif" width="100%" />
+                    </div>
+                </div>
+                <div class="container hidewhenmobile">
+                    <div class="row" style="padding-top:30px;">
+                        <div class="center col-md-12" style="color:black; padding:0px;">
+                            <p>
+                                <a ng-click="RedirectToRoute('/order/LandingPage')">HOME</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a href="https://www.amexgiftcard.com/Balance" target="_blank">CHECK BALANCE</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a ng-click="RedirectToRoute('/order/PlasticGiftCard')">BUY GIFT CARDS</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a ng-click="RedirectToRoute('/Corporate')">BUSINESS REWARD CARDS</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a ng-click="RedirectToRoute('/order/ContactUs')">CONTACT US</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a ng-click="RedirectToRoute('/order/FAQs')">FAQS</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a ng-click="OpenWindow('https://balance.amexgiftcard.com/cardholder-agreement')">TERMS &amp; CONDITIONS</a>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <a ng-click="RedirectToRoute('/order/PrivacyPolicy')">PRIVACY POLICY</a>
+                            </p>                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <div class="footer-above rpgblue hidden">
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below" >
+                <div class="container" style="padding-top:20px">
+                    <div class="row">
+                        <div class="american-express">
+                            <img src="Content/img/axp_blueboxlogo.png" />
+                            The American Express® Gift Card may only be used at US merchants that accept American Express® Cards, except for recurring payment. No ATM use. Funds do not expire. Not redeemable for cash, except where required by law. Additional limitations apply. See <a ng-click="OpenWindow('https://balance.amexgiftcard.com/cardholder-agreement')">Cardholder Agreement</a> for complete details. For customer service call 1-888-846-4308.  For balance inquiries, current <a ng-click="OpenWindow('https://balance.amexgiftcard.com/cardholder-agreement')">Cardholder Agreement</a>, and additional information visit AmexGiftCard.com/Balance.  Gift Card is issued by American Express Prepaid Card Management Corporation (PCMC). PCMC is licensed as a Money Transmitter by the New York State Department of Financial Services. NMLS ID# 913823.
+                            
+
+                        </div>
+                        <div class="rpg-footer">
+                            <img src="Content/img/hp/r-p-g-logo@2x.png" alt="rpg"/>
+                            <p class="" style="margin:0px;margin-top:5px;">Gift Cards sold on this website by RPG.</p>
+                            <p class="">RPG is an authorized seller of the PREIT Malls Gift Card issued by American Express.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below" >
+                <div class="container">
+                    <div class="row">
+                        <div class="rpg-footer-copy">
+                            <p class="" style="font-size:small; color: black;padding-bottom:40px;padding-top:10px;">©2018 RPG Card Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="demo-slidebar" off-canvas="demo-mobile-only left reveal">
+        <div class="text-center" style="height:49px;">
+            <button class="link-main" ng-click="RedirectToRoute('/')"><img src="Content/img/all-mall-2695-top-logo.png" style="max-width:150px; width:100%;cursor:pointer;"  alt="logo"/></button>
+        </div>
+        <ul class="menu" style="border-top: 1px solid #d9d9d9;">
+            <li>
+                <h2 ng-cloak style="font-size: 15px !important;" ng-show="UserInfo.UserName">Welcome: <span style="color:#000">{{UserInfo.UserName}}</span><button style="padding-left: 5px;font-size: 11px;" ng-click="logOut()">Log out</button></h2>
+            </li>
+            <li><button ng-click="OpenWindow('https://www.amexgiftcard.com/Balance')">Check Balance</button></li>
+            <li><button ng-click="RedirectToRoute('/order/PlasticGiftCard')" >Buy Gift Cards</button></li>
+            <li><button ng-click="RedirectToRoute('/Corporate')" >Business Gift Cards</button></li>
+            <li><button ng-click="RedirectToRoute('/order/ContactUs')" >Contact Us</button></li>
+            <li><button ng-click="RedirectToRoute('/order/FAQs')" >FAQS</button></li>
+            <li><button ng-click="OpenWindow('https://balance.amexgiftcard.com/cardholder-agreement ')">Terms &amp; Conditions</button></li>
+            <li><button ng-click="RedirectToRoute('/order/PrivacyPolicy')" >Privacy Policy</button></li>
+        </ul>
+    </div>
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div> <!--Modal 3-->
+    <div id="myModal3" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row" style="background-image: url('Content/img/icon_checkmark.png.html'); ">
+                        <div class="clock" style="margin:2em;"></div>
+                        <div class="message"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal 3-->
+    <div id="loadingModal" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="Content/img/loading.gif" style="width: 50px; display: inline-block;" /><div style="display: inline-block; font-size: 16px; color: rgba(0, 43, 76, .75);">Processing...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Content/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-cookies.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.8/angular-sanitize.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/additional-methods.min.js"></script>
+    <script src="Content/js/angular-recaptcha.js"></script>
+
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="Content/js/jquery.jcarousel.min.js"></script>
+    <script src="Content/js/jcarousel.responsive.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="Content/js/freelancer.min.js"></script>
+    <script src="Content/js/App-5.js"></script>
+    <script src="Content/js/PageController-7.js"></script>
+    <script src="Content/js/OperationsController-5.js"></script>
+    <script src="Content/js/EmailRegistrationController-5.js"></script>
+    <script src="Content/js/angular-repeat-directive.js"></script>
+    <script src="Content/js/angular-bind-html-compile.js"></script>
+    <script src="Content/js/slidebars.min.js"></script>
+    <script src="Content/js/SlideBar.js"></script>
+    <script src="https://na.accpg.accertify.net/form/version/41/merchant/RPG01/session.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="Content/Client/Hilton/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="Content/Client/Hilton/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-127076907-4', 'auto');
+        ga('send', 'pageview');
+        ga('require', 'ecommerce');
+    </script>
+    <script>
+        var $htmlOrBody = $('html, body'), // scrollTop works on <body> for some browsers, <html> for others
+            scrollTopPadding = 8;
+
+        $('input[type="text"],input[type="password"]').focus(function () {
+            // get textarea's offset top position
+            var textareaTop = $(this).offset().top;
+            // scroll to the textarea
+            $htmlOrBody.scrollTop(textareaTop - scrollTopPadding);
+        });
+    </script>
+
+    
+    <input type="hidden" id="endpoint1" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetCardsForClient" />
+    <input type="hidden" id="endpoint2" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetShippingTotals" />
+    <input type="hidden" id="endpoint3" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetCheckoutTotals" />
+    <input type="hidden" id="endpoint4" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/ForgotPassword" />
+    <input type="hidden" id="endpoint5" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/CreateUserAccount" />
+    <input type="hidden" id="endpoint6" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/Login" />
+    <input type="hidden" id="endpoint7" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetStates" />
+    <input type="hidden" id="endpoint8" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/Purchase" />
+    <input type="hidden" id="endpoint9" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/NewsletterSubscribe" />
+    <input type="hidden" id="endpoint10" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/ResetPassword" />
+    <input type="hidden" id="endpoint11" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetRefillableCardDenominations" />
+    <input type="hidden" id="endpoint12" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/PrecheckBalanceInquiry" />
+    <input type="hidden" id="endpoint13" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/BalanceInquiry" />
+    <input type="hidden" id="endpoint14" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/PurchaseRefill" />
+    <input type="hidden" id="endpoint15" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetRefillTotals" />
+    <input type="hidden" id="endpoint16" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetRetailLocation/" />
+    <input type="hidden" id="endpoint17" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/CardPinCheck/" />
+    <input type="hidden" id="endpoint18" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetQuestions" />
+    <input type="hidden" id="endpoint19" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/SendRegistrationEmail" />
+    <input type="hidden" id="endpoint20" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/SendContactUsEmail" />
+    <input type="hidden" id="endpoint21" value="https://prodapi.royalweb1.rpggiftcards.org/api/WebService/GetTransactionLimit" />
+    <input type="hidden" id="InAuthSiteKey" value="1be355c6dc2a73e6" />
+    <input type="hidden" id="InAuthSession" value="81cc10d12ade497a9ddc8c4a95e5d3b6" />
+    <input type="hidden" id="InAuthST" value="1000" />
+    <input type="hidden" id="InAuthCF" value="507899" />
+    <input type="hidden" id="InAuthAPIKey" value="0cb3e55a5f353c6d1d10658bbf2aacfa1df21ff2" />
+    <input type="hidden" id="InAuthBaseJsURL" value="https://www.cdn-net.com" />
+    <input type="hidden" id="GoogleKey" value="6Lc3EigUAAAAAJE-PegxrTPUqPZGlAUFGINM6osb" />
+
+         
+
+    <script type="text/javascript">
+            var _cc = _cc || [];
+            var sid = $('#InAuthSiteKey').val();
+            var tid = $('#InAuthSession').val();
+            var st = +$('#InAuthST').val();
+            var cf = +$('#InAuthCF').val();
+            var inAuthBaseJs = $('#InAuthBaseJsURL').val();
+            _cc.push(['ci', { 'sid': sid, 'tid': tid }]);
+            _cc.push(['st', st]);
+            _cc.push(['cf', cf]);
+            _cc.push(['run', inAuthBaseJs]);
+            (function () {
+                var c = document.createElement('script');
+                c.type = 'text/javascript'; c.async = true;
+                c.src = inAuthBaseJs + '/cc.js?ts=' + (new Date()).getTime();
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(c, s);
+            })();
+            function PreSubmitPayment(e) {
+                try {
+                    e.preventDefault ? e.preventDefault() : e.returnValue = false;
+                }
+                catch (e) { }
+
+                _cc.push(['cag', function () {
+                    Success();
+                }]);
+            }
+
+            function Success() {
+            }
+
+
+            _cc.push(['cag', function () {
+                Success();
+            }]);
+    </script>
+    <script type="text/javascript">
+            jQuery(document).ready(function () {
+                jQuery('.tp-banner').revolution(
+                    {
+                        delay: 9000,
+                        startwidth: 1170,
+                        startheight: 500,
+                        hideThumbs: 10
+                    });
+            });
+    </script>   
+</body>
+</html>

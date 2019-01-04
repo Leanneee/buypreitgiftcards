@@ -1,0 +1,1029 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: default;
+    color: black;
+}
+.container{
+    
+}
+.Cougar {
+    color: #447188;
+}
+
+.BlackBackground {
+    background-color: black;
+    color:white;
+}
+.OrangeColor {
+    color: #447188;
+}
+
+.OrangeHoverColor {
+    color: #447188;
+}
+
+    .OrangeHoverColor:hover {
+        color: #666666;
+    }
+
+.LightGrayBackground {
+    background-color: #F8F8F8;
+}
+
+
+footer a {
+    color: black;
+}
+
+a:focus, a:hover {
+    color: #447188;
+    text-decoration:underline;
+}
+
+select:disabled, textarea:disabled, input:not([type]):disabled, input[type="color" i]:disabled, input[type="date" i]:disabled, input[type="datetime" i]:disabled, input[type="datetime-local" i]:disabled, input[type="email" i]:disabled, input[type="month" i]:disabled, input[type="password" i]:disabled, input[type="number" i]:disabled, input[type="search" i]:disabled, input[type="tel" i]:disabled, input[type="text" i]:disabled, input[type="time" i]:disabled, input[type="url" i]:disabled, input[type="week" i]:disabled {
+    background-color: rgb(235, 235, 228) !important;
+    color: graytext;
+}
+
+.hiltonlightblue{
+    color:#00a8e1;
+    padding:5px;
+}
+.hiltondarkblue {
+    color: #003882;
+}
+
+.hiltonblack {
+    color: #000000;
+
+}
+
+.BSAS_Message {
+    font-style: italic;
+    color: #003882;
+}
+
+.mobilecartbutton {
+    background: none !important;
+    border: none;
+    display: block;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 200ms ease-in-out 0s;
+    transition: all 200ms ease-in-out 0s;
+}
+
+
+
+.headerImg5 {
+    background: white; /* Old browsers */
+    background: -moz-linear-gradient(left, #d6d6d6 0%, #ffffff 20%,#ffffff 80%, #d6d6d6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #d6d6d6 0%,#ffffff 20%,#ffffff 80%,#d6d6d6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #d6d6d6 0%,##ffffff 20%,#ffffff 80%,#d6d6d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#d6d6d6',GradientType=1 ); /* IE6-9 */
+}
+
+.hiltonblack5 {    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6d6d6+0,ffffff+50,d6d6d6+100 */
+    background: white; /* Old browsers */
+    background: -moz-linear-gradient(left, #d6d6d6 0%, #ffffff 20%,#ffffff 80%, #d6d6d6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #d6d6d6 0%,#ffffff 20%,#ffffff 80%,#d6d6d6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #d6d6d6 0%,##ffffff 20%,#ffffff 80%,#d6d6d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#d6d6d6',GradientType=1 ); /* IE6-9 */
+}
+.validation-errors {
+    font-size:small;
+}
+
+.bottompadded {
+    padding-bottom: 10px;
+}
+
+
+.roundcorners {
+    /*border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #003882;*/
+    margin-bottom: 10px;
+    margin-top:20px;
+    float: left;
+}
+.CustomerPurchase {
+    z-index: 70;
+    min-height: 36px;
+    top: -36px;
+    background: #003882;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: bold;
+    position: relative;
+}
+.BusinessPurchase {
+    z-index: 70;
+    min-height: 36px;
+    top: -36px;
+    background: #00a8e1;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: bold;
+    position: relative;
+}
+.CustomerPurchase:hover {
+    /*background-color: #003882;*/
+    /*background: rgba(0,0,0,0.4);
+    text-decoration: none;*/
+}
+
+.BusinessPurchase:hover {
+    /*background-color: #00a8e1;*/
+    /*background: rgba(0,0,0,0.4);
+    text-decoration: none;*/
+}
+
+.ClickImage a {
+    text-decoration: none;
+    cursor: pointer;
+}
+    .ClickImage a:hover {
+        text-decoration: underline;
+        text-decoration-color: white;
+        color: white;
+    }
+
+
+
+/* 
+below used in previous css file called custom.css
+
+    */
+
+
+/*used for steps to place an order*/
+.activated {
+    background-color: white;
+    color: #666666;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #447188;
+}
+
+.totalHeader {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.totalValue {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align:right;
+}
+.subtotalHeader {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight:normal;
+}
+.subtotalValue {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align:right;
+    font-weight:normal;
+}
+td{
+    margin:0px;
+}
+.notActivated {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+
+.visited {
+}
+.btn {
+    font-size: 12px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    border-radius: unset;
+}
+.btn-social {
+    width: 36px;
+    height: 36px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.btn-outline {
+    border-radius: 50%;
+    border-color: #00a8e1;
+}
+
+    .btn-outline:hover {
+        background-color: white;
+        color: #00a8e1;
+        border: 1px solid #00a8e1;
+    }
+
+.btn-primary {
+    background: #447188;
+    border-color: #447188;
+    color: white;
+    font-weight: bolder;
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open .dropdown-toggle {
+        background-color: #666666;
+        border-color: #666666;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+    }
+
+.link-main {
+    font-size: 12px;
+    padding:0px;
+    border: none;
+    background-color:transparent;
+}
+
+/*used for the numbered steps to purchase cards*/
+.sliderPosition {
+    display: inline-block;
+    border-color: rgba(0, 43, 76, .75);
+}
+
+.selectpicker {
+    width: 100%;
+    height: 35px;
+    font-size: large;
+    color: #666666;
+}
+
+/*used for the numbered steps to purchase cards*/
+.center {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"], input[type="date"] {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border: 1px solid #a9a9a9;
+    line-height: 35px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+
+input,
+textarea {
+    color: #666;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/*below is used in the step of registration */
+
+
+.whiteBg {
+    background-color: #fff;
+    padding: 20px 20px 0 20px;
+}
+
+.greyBg {
+    background-color: White;
+    padding: 20px 10px;
+    margin: 90px 0;
+}
+
+.colBg {
+    background-color: #eee;
+    padding: 20px 10px;
+    margin: 30px 0;
+}
+
+.colBg1 {
+    padding: 20px 10px;
+    margin: 30px 0;
+}
+
+[class*=js-open-],
+[class*=js-toggle-],
+[class*=js-close-] {
+    cursor: pointer;
+}
+
+.register,
+#tw_status_container {
+    padding: 30px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.panelgrey {
+    background: White;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.panelgrey1 {
+    background: White;
+    margin-bottom: 20px;
+}
+
+.panelgrey2 {
+    background: White;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*above is used in the step of registration */
+/*used for steps to place an order*/
+
+[off-canvas] ul.menu li button:hover {
+    color: #447188;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+
+/* line 1, ../sass/_off-canvas.scss */
+[off-canvas] {
+    background-color: White;
+    border-bottom: 1px #fbce07 solid;
+    border-right: 1px #fbce07 solid;
+    border-top: 1px #fbce07 solid;
+}
+    /* line 4, ../sass/_off-canvas.scss */
+    [off-canvas] .padded-box {
+        padding: 20px;
+    }
+    /* line 8, ../sass/_off-canvas.scss */
+    [off-canvas] ul.menu {
+        margin: 0;
+        padding: 0;
+        display: block;
+        list-style: none;
+    }
+        /* line 14, ../sass/_off-canvas.scss */
+        [off-canvas] ul.menu li button {
+            background: none !important;
+            color: inherit;
+            border: none;
+            color: #404040;
+            display: block;
+            height: 45px;
+            background-color: rgba(255, 255, 255, 0);
+            -webkit-transition: all 200ms ease-in-out 0s;
+            transition: all 200ms ease-in-out 0s;
+        }
+    [off-canvas] ul {
+        padding-left: 1em;
+        line-height: 5px;
+    }
+
+        [off-canvas] ul li {
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+
+
+        [off-canvas] ul.unstyled {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+nav[canvas] {
+    position: fixed;
+}
+
+
+.errorColor {
+    color: red !important;
+}
+.textPosition {
+    display: inline-block;
+    color: black;
+}
+.inputCard {
+    padding-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    z-index: 99;
+}
+.error {
+    color: red;
+}
+
+select.error, textarea.error, input.error {
+    color: black;
+    background-color: #FF5858;
+}
+
+label.error {
+    font-size: x-small;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+input.error {
+    margin-bottom: 0px !important;
+}
+
+#mainNav {
+    width: 100%;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+}
+
+.totalValue {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+
+navbar-custom {
+    height: 45px;
+    opacity: 0.8;
+    background-color: #F7D117;
+    padding: 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+#consumerNoBanner {
+    display: none;
+}
+
+#balanceNoBanner {
+    display: none;
+}
+
+#b2bNoBanner {
+    display: none;
+}
+
+
+
+.prettyh2 {
+    padding: 5px 10px 10px 0px;
+    border-bottom: 1px solid #ddd;
+    font-size: 24px !important;
+    margin-bottom: 10px;
+}
+
+.FlexEmbed {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.FlexEmbed:before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.FlexEmbed--3by1:before {
+  padding-bottom: 33.33333%;
+}
+.FlexEmbed--64by25:before {
+  padding-bottom: 39.0625%;
+}
+.FlexEmbed--2by1:before {
+  padding-bottom: 50%;
+}
+
+.FlexEmbed--16by9:before {
+  padding-bottom: 56.25%;
+}
+
+.FlexEmbed--4by3:before {
+  padding-bottom: 75%;
+}
+
+.CoverImage {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-height:460px;
+  max-width: 1900px;
+}
+.CoverImageNarrow {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-height:800px;
+  max-width: 1200px;
+}
+
+
+
+@media (min-width: 991px) {
+    #portfolio .portfolio-item .portfolio-link .caption {
+        text-align: center;
+        max-width: 370px;
+        margin-left: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    .cardOrder {
+        padding: 0px 35px;
+    }
+}
+
+
+    /* 
+above used in previous css file called custom.css
+
+    */
+    /*
+        below used in previous css file called override.css
+    */
+#portfolio h1,
+#portfolio-title {
+    margin-top: -50px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    text-align: justify;
+    max-width: 81.25rem;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem 2.5rem;
+    box-sizing: border-box;
+    transition: margin-top .3s;
+    border-top: 0 solid #dd1d21;
+    border-bottom: 10px solid #003882;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: inherit;
+    align-items: center;
+    color: #404040;
+    font-weight: bold;
+    text-size-adjust: 100%;
+    background-color: white;
+    -webkit-margin-before: -50px;
+    -webkit-margin-after: 0.3em;
+}
+
+.portfolio-link {
+    text-decoration: none;
+    width: 200px;
+}
+.imgBox {
+    display: inline-block;
+    overflow: hidden;
+}
+
+    .imgBox img {
+        display: block;
+        transition: .3s ease-in-out;
+    }
+
+    .imgBox:hover img {
+        transform: scale(1.1);
+    }
+
+#consumer {
+    display: none;
+}
+
+#consumerNoBanner {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #consumerNoBanner, #balanceNoBanner, #b2bNoBanner, .PurchaseButton {
+        align-content: center;
+    }
+
+    #consumerNoBanner img, .PurchaseButton p, #b2bNoBanner img, #balanceNoBanner img {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+.navbar-custom {
+    background: #FFFFFF;
+    /*border-bottom: 1px solid #d9d9d9;*/
+}
+
+
+/* 
+above used in previous css file called override.css
+
+    */
+
+.BodyCopy, BodyCopy p, BodyCopy label {
+    color: black;
+    border-color: #404040;
+    font-weight: normal;
+}
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+.margintop15 {
+ margin-top:15px;
+}
+.OrderCopy, OrderCopy p, OrderCopy label {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media (min-width: 992px) {
+    .headerImg {
+        padding-top: 0px;
+    }
+    .BelowImagePadding {
+        padding-top: 20px;
+    }
+    .HeaderLinks {
+        margin-top: 18px;
+    }
+
+    .showwhenmobile {
+        display: none;
+    }
+
+    .pagetitle {
+        font-size: x-large;
+    }
+
+    .textPosition {
+        font-size: medium;
+    }
+
+    .HeaderMenu {
+        font-size: small;
+    }
+
+        .HeaderMenu p {
+            font-size: small;
+        }
+
+        .HeaderMenu a {
+            padding: 10px 6px;
+        }
+
+    .BelowImagePadding {
+        padding-top: 15px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+
+    .h15 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    h2, .textPosition {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    h4 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+    .BodyCopy, BodyCopy p, BodyCopy label {
+        font-size: 16px;
+        line-height: 25px;
+    }   
+    .FAQ p{
+        line-height: 24px;
+        margin: 0 0 24px;
+
+    }
+
+    .PRIVACY p {
+        margin: 0 0 20px;
+    } 
+    .textarea500sm {
+        width: 500px;
+    }
+
+    .american-express {
+        float: left;
+        max-width: 630px;
+        padding-top: 13px;
+    }
+
+    .american-express img {
+    width: 60px;
+    vertical-align: top;
+    float: left;
+    margin-right: 5px;
+    }
+
+    .rpg-footer {
+    text-align: right;
+    float: right;
+    padding-top: 13px;
+    }
+
+    .rpg-footer img {
+    vertical-align: top;
+    }
+
+    .rpg-footer p {
+    line-height: 11px;
+    font-size: 8px;
+    }
+    .rpg-footer-copy {
+        float: left;
+    }
+    .widebutton {
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    .navbar {
+        min-height: 0px;
+        margin-bottom: 0px;
+    }
+    .HeaderMenu2 {
+        padding-top: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .headerImg {
+        padding-top: 0px;
+    }
+
+    .navbar {
+        min-height: 0px;
+        margin-bottom: 0px;
+    }
+    .showwhenmobile {
+        display: none;
+    }
+
+    .pagetitle {
+        font-size: x-large;
+    }
+
+    .textPosition {
+        font-size: medium;
+    }
+
+    .HeaderMenu {
+        font-size: small;
+    }
+
+        .HeaderMenu p {
+            font-size: small;
+        }
+
+        .HeaderMenu a {
+            padding: 10px 6px;
+        }
+
+    .BelowImagePadding {
+        padding-top: 15px;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+
+    .h15 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    h2, .textPosition {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    h4 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+    .BodyCopy, BodyCopy p, BodyCopy label {
+        font-size: 16px;
+        line-height: 25px;
+    }   
+
+    .textarea500sm {
+        width: 500px;
+    }
+    .american-express {
+        float: left;
+        max-width: 630px;
+        padding-top: 13px;
+    }
+
+    .american-express img {
+        width: 60px;
+        vertical-align: top;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .rpg-footer {
+        text-align: right;
+        float: right;
+        padding-top: 13px;
+    }
+
+    .rpg-footer img {
+        vertical-align: top;
+    }
+
+    .rpg-footer p {
+        line-height: 11px;
+        font-size: 8px;
+    }
+    .rpg-footer-copy {
+        float: left;
+    }
+    .widebutton {
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidewhenmobile {
+        display: none;
+    }
+
+    .showwhenmobile {
+        display:;
+    }
+
+    .headerImg {
+        padding-top: 45px;
+    }
+
+    .demo-slidebar {
+        font-size: medium;
+        font-weight: bolder;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .pagetitle {
+        font-size: large;
+    }
+
+    .BelowImagePadding {
+        padding-top: 8px;
+    }
+    h1 {
+        font-size: 44px;
+        line-height: 48px;
+    }
+    .h15 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h2, .textPosition {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    h4 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+
+    .BodyCopy, BodyCopy p, BodyCopy label {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .textarea500sm {
+        width: 100%;
+    }
+
+    .american-express {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+        .american-express img {
+            width: 70px;
+            vertical-align: top;
+            float: left;
+            margin-right: 10px;
+        }
+
+    .rpg-footer {
+        text-align: left;
+        float: left;
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+        .rpg-footer img {
+            vertical-align: top;
+            float: left;
+            margin-right: 10px;
+        }
+
+    .rpg-footer p {
+        line-height: 11px;
+        font-size: 8px;
+    }
+    .rpg-footer-copy {
+        clear: both;
+        margin-left: 10%;
+    }
+    .widebutton {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+.col-xs-12.col-md-3.text-center img {
+    margin-top: 20px;
+}
+.col-xs-6.col-md-3.text-center img {
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+.shippinglabeldisabled {
+    text-decoration: line-through;
+}
